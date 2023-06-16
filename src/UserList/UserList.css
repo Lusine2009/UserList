@@ -1,0 +1,62 @@
+.container-userList{
+    border: 1px orangered solid;
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.container-userlist-lastname{
+    display: flex;
+    justify-content: center;
+}
+.container-aserlist-lastname p{
+    color: orange;
+}
+.container-userList-data{
+    text-align: end;
+    color: yellow;
+    margin-right: 8px;
+}
+.max-width{
+    width: 90%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position:absolute;
+}
+.container-modal-content{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    border-radius: 15px;
+}
+.add-user-button{
+    z-index: 10;
+}
+.input{
+    margin: 15px 0 10px 0;
+    text-align: center;
+}
+.button{
+    align-items: center;
+}
+.button1{
+    background-color: orangered;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.button2{
+    background-color: orangered;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+}
